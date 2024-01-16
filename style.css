@@ -22,6 +22,7 @@
     font-weight: 400;
     line-height: 26px;
 }
+
 .para-des-1 {
     color: rgba(19, 19, 24, 0.70);
     text-align: left;
@@ -130,57 +131,61 @@ main {
 }
 
 /* choose your destination */
-.destination{
+.destination {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
 }
-.destination-title h2{
+
+.destination-title h2 {
     text-align: center;
-    
+
 }
-.first-row{
+
+.first-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     padding-bottom: 10px;
 
 }
-.second-row{
+
+.second-row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-     gap: 40px;
-     padding-bottom: 10px;
+    gap: 40px;
+    padding-bottom: 10px;
 
 
 }
-.third-row{
+
+.third-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
 }
 
- .row-first{
+.row-first {
     position: relative;
     object-fit: cover;
-    
-   
 
 }
 
-.row-second{
+.row-second {
     position: relative;
     object-fit: cover;
-    
-}
-.row-third{
-    position: relative;
-    object-fit: cover;
-    
 
 }
-.text-overlay{
+
+.row-third {
+    position: relative;
+    object-fit: cover;
+
+
+}
+
+.text-overlay {
 
     position: absolute;
     top: 50%;
@@ -189,10 +194,60 @@ main {
     text-align: center;
     color: white;
     font-size: 1rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 
-}  
+}
+
+/*why choose us  */
+.choose-head {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.choose-title {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.hotel {
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.hotel-location {
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.us {
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+.best-price{
+    margin: 30px auto;
+    padding: 10px;
+    width: 400px;
+    align-items: center;
+    height: 200px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+
 
 
 
@@ -229,26 +284,29 @@ main {
     .title-des {
         font-size: 1rem;
     }
+
     .first-row,
     .second-row,
-    .third-row
-    {
+    .third-row {
         grid-template-columns: repeat(1, 1fr);
     }
-    .row-first img{
+
+    .row-first img {
         /* padding: 10px; */
         width: 100%;
         height: 250px;
         border-radius: 10px;
     }
-    .row-second img{
+
+    .row-second img {
         /* padding: 10px; */
         width: 100%;
         height: 250px;
         border-radius: 10px;
         padding-top: 20px;
     }
-    .row-third img{
+
+    .row-third img {
         /* padding: 10px; */
         width: 100%;
         height: 250px;
