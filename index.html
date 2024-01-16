@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <nav>
+        <!-- <nav>
             <div class="title">
                 <img src="images/group40071.png" alt="">
                 <h2 class="section-title">Master <span style="color:#FF5400;">Travel</span></h2>
@@ -22,8 +22,37 @@
                 <li><a href="">Testimonial</a></li>
                 <li><a href="">Blog</a></li>
                 <li><a href="">Contact</a></li>
+                
             </ul>
+            
+        </nav> -->
+        <nav class="top-nav" id="myTopnav">
+            <div class="top-one-nav">
+            <div class="logo">
+            <a href="">
+                <img src="images/group40071.png" alt="">
+            </a>
+            <h2>Master<span style="color: #FF5400" >Travel</span></h2>
+        </div>
+        <div class="travel">
+
+            <a href=""></a>
+            <a href=""><span style="color: #FF5400">Home</span> </a>
+            <a href="">Packages</a>
+            <a href="">Testimonial</a>
+            <a href="">Blog</a>
+            <a href="">Contact</a>
+            <div class="dropdown">
+                <a href=""style="font-size:15px"class="icon"><i class="fa-regular fa-square-caret-down" style="color: #e57748;"></i></a>
+
+            </div>
+        </div>
+    </div>
         </nav>
+
+
+
+
         <div class="banner">
             <div class="banner-title">
                 <h2 id="title">Explore Your Travel</h2>
@@ -34,11 +63,15 @@
             </div>
             <div class="banner-option">
                 <form id="Select">
-                    <input type="text" id="selection" placeholder="Where go">
-
-                    <input type="text" id="selection" placeholder="When">
-                    <input type="text" id="selection" placeholder="Select type">
-                    <input type="submit" value="Submit">
+                    <input type="text" class="selection" placeholder="Where go">
+                    <select name="" id=""class="selection" >
+                         <option value=""type="text" >When</option>
+                    </select>
+                  
+                    <select name="" id=""class="selection">
+                        <option value=""type="text"  >When</option>
+                   </select>
+                    <button type=""id="sub">Find Now</button>
                 </form>
             </div>
         </div>
@@ -156,11 +189,65 @@
             </div>
 
         </section>
+        <section class="newsletter">
+            <div class="news-container">
+                <div class="news-heading">
+                    <h2>Newsletter</h2>
+                    <p>Get your daily does of travel news & tips sign up today</p>
+                    <input class="selection1" type="text" placeholder="Enter your name">
+                    <br><br>
+                    <input class="selection1" type="text" placeholder="Enter your email">   
+                    </input>
+                    <br><br>
+                    <input class="selectionbtn" type="button" value="Subscribe" >
+                </div>
+                <div class="save">
+                    
+                </div>
+            </div>
+        </section>
+        
     </main>
 
     <!-- footer -->
     <footer>
-
+        <div class="footer">
+            <div class="foot-title">
+                <img src="images/group40071.png" alt="">
+            <div>
+                   
+                <h2>
+                    Master <span style="color: #FF5400;">Travel</span> 
+                </h2>
+            </div>
+        </div>
+            <p class="foot-para">
+                Join us as we navigate the globe together, creating moments that define a lifetime.
+            </p>
+        </div>
+        </div>
+        <div class="social">
+            
+            <div class="social-media">
+                <i style="font-size: 30px;" class="fa-brands fa-twitter"></i>
+            </div>
+            <div style="font-size: 30px;"class="social-media">
+                <i style="font-size: 30px;" class="fa-brands fa-facebook"></i>
+            </div>
+            <div style="font-size: 30px;"class="social-media"">
+                <i style="font-size: 30px;" class="fa-brands fa-instagram"></i>
+            </div>
+            <div style="font-size: 30px;"class="social-media"">
+                <i style="font-size: 30px;" class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+        <hr style="background: rgba(19, 19, 24, 0.10);">
+        
+            <div class="copy-write-details">
+                <h5>2017, All Rights Reserved</h5>
+            </div>
+            
+        
     </footer>
 </body>
 
