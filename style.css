@@ -6,6 +6,7 @@
     font-family: "Mulish", sans-serif;
 }
 
+
 .btn-primary {
     width: 200px;
     height: 150px;
@@ -22,17 +23,22 @@
     background-color: #FFF;
     border: 1px solid #ddd;
     width: 200px;
+    color: rgba(19, 19, 24, 0.50);
+    border-radius: 5px;
+    font-size: 1rem;
+
 }
 
 #sub {
     color: white;
-    width: 10%;
+    width: 15%;
     padding: 10px;
     background: #FF5400;
     font-size: 17px;
     border-radius: 5px;
     border: none;
 }
+
 
 .para-des {
     color: rgba(19, 19, 24, 0.70);
@@ -56,6 +62,7 @@ header {
 .top-one-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .top-nav {
@@ -79,7 +86,7 @@ header {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1rem;
 }
 
 .top-nav .icon {
@@ -88,44 +95,19 @@ header {
 
 .logo {
     display: flex;
-}
-
-/* nav {
-    display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    overflow: hidden;
+
 }
 
-nav h2 {
+.logo h2 {
     color: #131318;
-    font-size: 2.4rem;
+    font-size: 2rem;
     font-weight: 800;
-}
-
-nav>ul {
-    display: flex;
-}
-
-nav li {
-   
 
 }
-.icon{
-    display: none;
-}
 
-nav li a {
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin-right: 30px;
-    color: #424247;
-    display: block;
 
-} */
 
 .title {
     display: flex;
@@ -138,7 +120,6 @@ nav li a {
     margin: 0 auto;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('images/Group13.png');
     border-radius: 16px;
-
     background-repeat: no-repeat;
 }
 
@@ -205,6 +186,9 @@ main {
 
 .destination-title h2 {
     text-align: center;
+    color: #131318;
+    font-size: 2.2rem;
+    font-weight: 800;
 
 }
 
@@ -258,7 +242,7 @@ main {
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 
@@ -268,6 +252,13 @@ main {
 .choose-head {
     text-align: center;
     padding-top: 20px;
+}
+#ch-head{
+    color: #131318;
+text-align: center;
+font-size: 2rem;
+font-weight: 800;
+
 }
 
 .choose-title {
@@ -296,7 +287,7 @@ main {
 
 .us {
     color: #131318;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 800;
 
@@ -327,17 +318,21 @@ main {
     width: 400px;
     height: 300px;
     padding: 20px 20px 20px 20px;
-
     border-radius: 10px;
     border-style: solid;
     border-color: #FF5400;
 
 
 }
+.news-heading h2{
+    color: #131318;
+font-size: 1.5rem;
+font-weight: 800;
+}
 
 .save {
     width: 600px;
-    height: 300px;
+    height: 340px;
     padding: 5px;
     border-radius: 10px;
     background: url('images/Rectangle81.png'), lightgray 50% / cover no-repeat;
@@ -354,12 +349,13 @@ main {
 }
 
 .selectionbtn {
-    color: white;
+    color: #FFF;
     width: 370px;
     padding: 10px;
     background: #FF5400;
     font-size: 17px;
     border-radius: 5px;
+
     border: none;
 }
 
@@ -380,12 +376,17 @@ footer {
     color: var(--Dark-01, #131318);
     font-size: 2rem;
     font-weight: 800;
-    
+
 
 }
 
 .foot-para {
+    color: #5A5A5D;
     text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    
 }
 
 
@@ -393,7 +394,6 @@ footer {
     display: flex;
     justify-content: center;
     gap: 30px;
-
     padding-top: 30px;
 }
 
@@ -410,6 +410,15 @@ hr {
     font-weight: 400;
 
 }
+
+
+
+
+
+
+
+
+
 
 
 
