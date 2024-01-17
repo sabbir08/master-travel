@@ -5,8 +5,6 @@
 * {
     font-family: "Mulish", sans-serif;
 }
-
-
 .btn-primary {
     width: 200px;
     height: 150px;
@@ -15,9 +13,7 @@
     padding: 10px;
     color: #FFF;
     cursor: pointer;
-
 }
-
 .selection {
     margin: 5px 10px 5px 0;
     padding: 10px;
@@ -27,9 +23,7 @@
     color: rgba(19, 19, 24, 0.50);
     border-radius: 5px;
     font-size: 1rem;
-
 }
-
 #sub {
     color: white;
     width: 15%;
@@ -40,8 +34,6 @@
     border: none;
     cursor: pointer;
 }
-
-
 .para-des {
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
@@ -49,28 +41,21 @@
     font-weight: 400;
     line-height: 26px;
 }
-
 .para-des-1 {
     color: rgba(19, 19, 24, 0.70);
     text-align: left;
 }
-
 header {
-
     padding: 40px 150px;
-
 }
-
 .top-one-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .top-nav {
     overflow: hidden;
 }
-
 .top-nav a {
     float: left;
     display: block;
@@ -80,7 +65,6 @@ header {
     text-decoration: none;
     font-size: 17px;
 }
-
 .travel {
     float: right;
     display: block;
@@ -90,31 +74,22 @@ header {
     text-decoration: none;
     font-size: 1rem;
 }
-
 .top-nav .icon {
     display: none;
 }
-
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
 .logo h2 {
     color: #131318;
     font-size: 2rem;
     font-weight: 800;
-
 }
-
-
-
 .title {
     display: flex;
 }
-
 .banner {
     max-width: 1170px;
     height: 500px;
@@ -124,15 +99,12 @@ header {
     border-radius: 16px;
     background-repeat: no-repeat;
 }
-
 #title {
     color: #FFF;
     font-size: 4rem;
     font-weight: 800;
     padding-top: 130px;
-
 }
-
 .title-des {
     color: #FFF;
     text-align: center;
@@ -140,31 +112,25 @@ header {
     font-weight: 400;
     line-height: 20px;
 }
-
 main {
     padding: 40px 150px;
 }
-
 .banner-option {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     width: 90%;
     margin: 40px;
 }
-
 /* main section */
 .tour {
     display: flex;
     gap: 20px;
 }
-
 #tour-head {
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
-
 }
-
 .tour-des p {
     width: 577px;
     font-size: 1rem;
@@ -172,12 +138,10 @@ main {
     font-weight: 400;
     line-height: 26px;
 }
-
 .tour img {
     width: 440px;
     height: 400px;
 }
-
 /* choose your destination */
 .destination {
     display: flex;
@@ -185,59 +149,41 @@ main {
     align-items: center;
     margin-top: 30px;
 }
-
 .destination-title h2 {
     text-align: center;
     color: #131318;
     font-size: 2.2rem;
     font-weight: 800;
-
 }
-
 .first-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
     padding-bottom: 10px;
-
 }
-
 .second-row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
     padding-bottom: 10px;
-
-
 }
-
 .third-row {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
 }
-
 .row-first {
     position: relative;
     object-fit: cover;
-
 }
-
 .row-second {
     position: relative;
     object-fit: cover;
-
 }
-
 .row-third {
     position: relative;
     object-fit: cover;
-
-
 }
-
 .text-overlay {
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -246,55 +192,44 @@ main {
     color: white;
     font-size: 1.2rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
-
 }
-
 /*why choose us  */
 .choose-head {
     text-align: center;
     padding-top: 20px;
 }
-#ch-head{
+#ch-head {
     color: #131318;
-text-align: center;
-font-size: 2rem;
-font-weight: 800;
-
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
 }
-
 .choose-title {
     display: flex;
     justify-content: space-evenly;
 }
-
-
 .hotel {
     padding: 10px;
     width: 400px;
     height: 200px;
     border-radius: 16px;
-    border: 1px solid rgba(251, 181, 99, 0.20);
+    /* border: 1px solid rgba(251, 181, 99, 0.20); */
     background: rgba(251, 181, 99, 0.05);
 }
-
 .hotel-location {
     padding: 10px;
     width: 400px;
     height: 200px;
     border-radius: 16px;
-    border: 1px solid rgba(41, 206, 246, 0.20);
+    /* border: 1px solid rgba(41, 206, 246, 0.20); */
     background: rgba(41, 206, 246, 0.05);
 }
-
 .us {
     color: #131318;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 800;
-
 }
-
 .best-price {
     margin: 30px auto;
     padding: 10px;
@@ -302,20 +237,15 @@ font-weight: 800;
     align-items: center;
     height: 200px;
     border-radius: 16px;
-    border: 1px solid rgba(251, 181, 99, 0.20);
+    /* border: 1px solid rgba(251, 181, 99, 0.20); */
     background: rgba(251, 181, 99, 0.05);
 }
-
 /* newsletter */
-
 .news-container {
 
     display: flex;
     justify-content: space-between;
-
-
 }
-
 .news-heading {
     width: 400px;
     height: 300px;
@@ -323,30 +253,26 @@ font-weight: 800;
     border-radius: 10px;
     border-style: solid;
     border-color: #FF5400;
-
-
 }
-.news-heading h2{
+.news-heading h2 {
     color: #131318;
-font-size: 1.5rem;
-font-weight: 800;
+    font-size: 1.5rem;
+    font-weight: 800;
 }
-.save-body{
+.save-body {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .save {
     width: 600px;
     height: 340px;
     padding: 5px;
     border-radius: 10px;
     background: url('images/Rectangle81.png'), lightgray 50% / cover no-repeat;
-   
     position: relative;
 }
-.over-lay{
+.over-lay {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -360,7 +286,6 @@ font-weight: 800;
     height: 100px;
     width: 30%;
 }
-
 .selection1 {
     margin: 5px 10px 5px 0;
     padding: 10px;
@@ -368,7 +293,6 @@ font-weight: 800;
     border: 1px solid #ddd;
     width: 350px;
 }
-
 .selectionbtn {
     color: #FFF;
     width: 370px;
@@ -379,20 +303,19 @@ font-weight: 800;
     cursor: pointer;
     border: none;
 }
-.location{
+.location {
     height: 500px;
     background: url('images/location.png'), lightgray 50% / cover no-repeat;
     display: flex;
     justify-content: space-between;
 }
-#loc-head{
+#loc-head {
     text-align: center;
     padding-top: 40px;
     font-size: 2rem;
     font-weight: 800;
-
 }
-.locbtn{
+.loc-btn {
     color: #FFF;
     width: 100px;
     padding: 10px;
@@ -402,7 +325,7 @@ font-weight: 800;
     cursor: pointer;
     border: none;
 }
-.loc-zoom{
+.loc-zoom {
     color: #FFF;
     width: 100px;
     padding: 10px;
@@ -412,26 +335,21 @@ font-weight: 800;
     cursor: pointer;
     border: none;
 }
-
 /* footer */
 footer {
     background: rgba(19, 19, 24, 0.05);
     height: 500px;
 }
-
 .foot-title {
     display: flex;
     justify-content: center;
     padding-top: 100px;
     gap: 10px;
 }
-
 .foot-title div h2 {
     color: var(--Dark-01, #131318);
     font-size: 2rem;
     font-weight: 800;
-
-
 }
 
 .foot-para {
@@ -440,47 +358,24 @@ footer {
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    
 }
-
-
 .social {
     display: flex;
     justify-content: center;
     gap: 30px;
     padding-top: 30px;
 }
-
 hr {
     width: 1170px;
     height: 1px;
 }
-
 .copy-write-details {
     text-align: center;
     color: #131318;
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Responsive */
@@ -492,7 +387,6 @@ hr {
         padding: 20px;
     }
 
-    /* dsdfdffddd */
     .top-nav a:not(:first-child),
     .dropdown .dropbtn {
         display: none;
@@ -504,14 +398,29 @@ hr {
 
     }
 
-
     .tour,
-    .destination {
+    .destination,
+    .choose-title,
+    .news-container {
         flex-direction: column;
     }
 
     .banner {
-        height: 300px;
+        height: 500px;
+    }
+
+    .banner-option {
+        display: block;
+        align-items: center;
+        width: 80%;
+        height: 350px;;
+
+    }
+
+    #sub {
+        width: 15%;
+    padding: 10px;
+    height: auto;
     }
 
     #title {
@@ -538,7 +447,7 @@ hr {
     }
 
     .row-second img {
-        /* padding: 10px; */
+
         width: 100%;
         height: 250px;
         border-radius: 10px;
@@ -546,13 +455,32 @@ hr {
     }
 
     .row-third img {
-        /* padding: 10px; */
+
         width: 100%;
         height: 250px;
         border-radius: 10px;
         padding-bottom: 20px;
         padding-top: 20px;
     }
+
+    .choose-title{
+        width: 100%;
+        margin: 10px;
+        justify-content: center;
+        gap: 20px;
+        border: none;
+        
+        
+    }
+    .hotel,
+    .hotel-location,
+    .best-price{
+       
+        width: 100%;
+        border: none;
+        
+    }
+
 
 
 }
