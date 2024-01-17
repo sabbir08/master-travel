@@ -14,6 +14,7 @@
     background: #FF5400;
     padding: 10px;
     color: #FFF;
+    cursor: pointer;
 
 }
 
@@ -37,6 +38,7 @@
     font-size: 17px;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 
@@ -329,6 +331,11 @@ font-weight: 800;
 font-size: 1.5rem;
 font-weight: 800;
 }
+.save-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .save {
     width: 600px;
@@ -336,8 +343,22 @@ font-weight: 800;
     padding: 5px;
     border-radius: 10px;
     background: url('images/Rectangle81.png'), lightgray 50% / cover no-repeat;
-
-
+   
+    position: relative;
+}
+.over-lay{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* padding: 10px; */
+    border-radius: 10px;
+    background-color: #FF5400;
+    color: #FFF;
+    rotate: -20deg;
+    text-align: center;
+    margin: 40px;
+    height: 100px;
+    width: 30%;
 }
 
 .selection1 {
@@ -355,7 +376,7 @@ font-weight: 800;
     background: #FF5400;
     font-size: 17px;
     border-radius: 5px;
-
+    cursor: pointer;
     border: none;
 }
 .location{
@@ -378,7 +399,7 @@ font-weight: 800;
     background: #FF5400;
     font-size: 17px;
     border-radius: 5px;
-
+    cursor: pointer;
     border: none;
 }
 .loc-zoom{
@@ -388,7 +409,7 @@ font-weight: 800;
     background: #FF5400;
     font-size: 17px;
     border-radius: 5px;
-
+    cursor: pointer;
     border: none;
 }
 
